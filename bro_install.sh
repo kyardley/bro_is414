@@ -10,5 +10,4 @@ cd /tmp/bro_install/bro-2.6.1/
 make
 sudo make install
 export PATH=$PATH:/usr/local/bro/bin
-rm -rd /tmp/bro_install/bro-2.6.1/
-rm /tmp/bro_install/bro-2.6.1.tar.gz
+rm -rd /tmp/bro_install/
