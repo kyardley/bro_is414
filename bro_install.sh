@@ -9,5 +9,5 @@ cd /tmp/bro_install/bro-2.6.1/
 /tmp/bro_install/bro-2.6.1/configure
 make
 sudo make install
-export PATH=$PATH:/usr/local/bro/bin
 rm -rd /tmp/bro_install/
+echo "Bro successfully installed; add /usr/local/bro/bin to your PATH variable"
