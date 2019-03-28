@@ -29,6 +29,7 @@ then
 
 	        #make directory for $file analysis
 	        filename=$(basename -- "$file")
+		filename="${filename%.*}"
 	        echo -e "${RED}Now analyzing $filename${NC}"
 	        mkdir "${BROLOGS_DIR}${filename}"
 	        cd /home/is414/bro_is414/brologs/"$filename"
