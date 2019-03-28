@@ -35,7 +35,7 @@ then
 	        cd /home/is414/bro_is414/brologs/"$filename"
 
 	        #analyze $file with bro
-	        /usr/local/bro/bin/bro -r "$file"
+	        /usr/local/bro/bin/bro -C -r "$file"
 
 	        echo -e "${GREEN}Saved analysis in $(pwd)${NC}"
 	done
