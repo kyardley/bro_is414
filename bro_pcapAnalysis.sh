@@ -35,7 +35,7 @@ then
 	        cd /home/is414/bro_is414/brologs/"$filename"
 
 	        #analyze $file with bro
-	        /usr/local/bro/bin/bro -C -r "$file"
+	        /usr/local/bro/bin/bro -C -r "$file" /home/is414/bro_is414/testing.bro "HTTP::default_capture_password=T"
 
 	        echo -e "${GREEN}Saved analysis in $(pwd)${NC}"
 	done
